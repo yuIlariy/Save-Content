@@ -63,7 +63,7 @@ async def send_start(client: Client, message: Message):
     buttons = [[
         InlineKeyboardButton("🚀 Maintainer", url = "https://t.me/xspes")
     ],[
-        InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ', url='https://t.me/xspes'),
+        InlineKeyboardButton('🔍 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://github.com/yuIlariy/Save-Content'),
         InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/modstorexd')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
