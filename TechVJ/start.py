@@ -63,8 +63,8 @@ async def send_start(client: Client, message: Message):
     buttons = [[
         InlineKeyboardButton("🚀 Maintainer", url = "https://t.me/xspes")
     ],[
-        InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/xspes'),
-        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/modstorexd')
+        InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ', url='https://t.me/xspes'),
+        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ', url='https://t.me/modstorexd')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
